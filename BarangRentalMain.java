@@ -31,7 +31,11 @@ public class BarangRentalMain {
                     String namaPeminjam = ss.next();
                     System.out.print("Masukkan Nomor TNKB : ");
                     String noTNKB = ss.next();
-                    DoubleLinkedList temp = get(noTNKB);
+                    System.out.println("Masukkan Jenis Kendaraaan");
+                    System.out.println("1. Motor");
+                    System.out.println("2. Mobil");
+                    int jenisKendaraan = sc.nextInt();
+                    if(jenis)
                     System.out.print("Masukkan Lama Pinjam : ");
                     int lamaPinjam = sc.nextInt();
                     System.out.print("Apakah Member : ");
